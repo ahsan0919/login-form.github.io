@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="page1.html" method="post">
+        <table width="100%" height="20%">
+            <tr>
+                <td align="center"><img src="https://saylaniwelfare.com/static/media/logo.22bf709605809177256c.png" ></td>
+            </tr>
+        </table>
+        <h2 align="center">Saylani Online Accademy</h2>
+        <table width="40%" height="50%" bgcolor="gray" align="center">
+            <tr>
+                <td colspan="2" align="center">
+                    <h2>Student Reagistration Form</h2>
+                </td>
+            </tr>
+            <tr>
+                <td width="20%" align="center">Name</td>
+                <td align="center"><input type="text" name="name" size="50%" placeholder="Enter your name" required></td>
+            </tr>
+            <tr>
+                <td align="center">Father Name</td>
+                <td align="center"><input type="text" name="fname" size="50%" placeholder="Enter your Father name" required></td>
+            </tr>
+            <tr>
+                <td align="center">Password</td>
+                <td align="center"><input type="password" name="password" size="50%" placeholder="Enter your password" required></td>
+            </tr>
+            <tr>
+                <td align="center">Gender</td>
+                <td>&emsp;
+                    Male<input type="radio" name="Gender" value="male">
+                    Female<input type="radio" name="Gender" value="female">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">Language</td>
+                <td>&emsp;
+                    Urdu<input type="checkbox" name="urdu">
+                    English<input type="checkbox" name="english">
+                    Arabic<input type="checkbox" name="Arabic">
+                    Chinies<input type="checkbox" name="chinies">
+
+                </td>
+            </tr>
+            <tr>
+                <td align="center">Address</td>
+                <td align="center"><textarea name="address" cols="50" rows="2" placeholder="Enter your Address" placeholder="Enter your address" required></textarea></td>
+            </tr>
+            <tr>
+                <td align="center">D.O.B :</td>
+                <td >&emsp;<input type="date" name="bday" size="50%"></td>
+            </tr>
+            <tr>
+                <td align="center">Email</td>
+                <td>&emsp;<input type="email" name="email" size="50%" placeholder="Enter your Email" required></td>
+            </tr>
+            <tr>
+                <td align="center">Phone number</td>
+                <td>&emsp;<input type="number" name="pnumber" placeholder="Enter your Phone number" required></td>
+            </tr>
+            <tr>
+                <td align="center" required>Country</td>
+                <td>&emsp;
+                    <select name="country">
+                        <optgroup>Pak</optgroup>
+                        <option value="nws">Nawabshah</option>
+                        <option value="hyd">Hyderabad</option>
+                        <option value="krchi">Karachi</option>
+                        <option value="mirpur">Mirpur khas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">Hobbies</td>
+                <td>&emsp;
+                    <select name="hobbies">
+                        <optgroup>Cricket</optgroup>
+                        <option value="cricket">Cricket</option>
+                        <option value="footbal">Footbal</option>
+                        <option value="book reading">Book reading</option>
+                        <option value="coding">Coding</option>
+                    </select>
+                </td>         
+            </tr>
+            <tr>
+                <td align="center">Picture Upload</td>
+                <td>&emsp;
+                    <input type="file" name="" multiple accept="image/*,.pdf,.png" required>
+                    <input type="submit" name="upload" value="upload">
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td align="center" colspan="2"><input type="submit" name="submit2" value="submit"</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
